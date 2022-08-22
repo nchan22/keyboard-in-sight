@@ -1,4 +1,4 @@
-const pianoKeys = document.querySelectorAll("key");
+const pianoKeys = document.querySelectorAll(".key");
 
 function playSound(newUrl) {
   new Audio(newUrl).play();
