@@ -7,5 +7,5 @@ function playSound(newUrl) {
 pianoKeys.forEach((pianoKey, i) => {
   const number = i < 9 ? "0" + (i + 1) : i + 1;
   const newUrl = "24-piano-keys/key" + number + ".mp3";
-  pianoKeys.addEventListener("click", () => playSound(newUrl));
+  pianoKey.addEventListener("click", () => playSound(newUrl));
 });
